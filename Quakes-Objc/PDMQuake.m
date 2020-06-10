@@ -10,12 +10,19 @@
 
 @implementation PDMQuake
 
-- (instancetype)initWithMagnitude:(double)magnitude place:(NSString *)place time:(NSDate *)time latitude:(double)latitude longitude:(double)longitude;
+- (instancetype)initWithMagnitude:(double)magnitude
+                            place:(NSString *)place
+                             time:(NSDate *)time
+                         latitude:(double)latitude
+                        longitude:(double)longitude;
 {
     self = [super init];
     if (self) {
+        // Comments in implementation details in the method, don't write a header comment here.
         _magnitude = magnitude;
-        _place = place;
+        //NSString -> NSMutableString
+        //Always use copy to turn a mutable NSMutableString into a immutable NSString
+        _place = [place copy];
         _time = time;
         _latitude = latitude;
         _longitude = longitude;
@@ -28,9 +35,6 @@
 // This is a convenience initalizer and call the previous init
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 {
-    // Comments in implementation details in the method, don't write a header comment here.
-    
-    
     // Pull out data from dictionary
     
     // If valid, create object and return it

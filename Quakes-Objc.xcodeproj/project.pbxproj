@@ -28,6 +28,7 @@
 		DB85DB3F24913EB80049D1A0 /* PDMFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85DB3E24913EB80049D1A0 /* PDMFirstResponder.m */; };
 		DB85DB45249144DD0049D1A0 /* PDMQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85DB44249144DD0049D1A0 /* PDMQuake.m */; };
 		DB85DB46249144DD0049D1A0 /* PDMQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85DB44249144DD0049D1A0 /* PDMQuake.m */; };
+		DB85DB4824914F820049D1A0 /* PDMQuakeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85DB4724914F820049D1A0 /* PDMQuakeTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		DB85DB3E24913EB80049D1A0 /* PDMFirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDMFirstResponder.m; sourceTree = "<group>"; };
 		DB85DB43249144DD0049D1A0 /* PDMQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDMQuake.h; sourceTree = "<group>"; };
 		DB85DB44249144DD0049D1A0 /* PDMQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDMQuake.m; sourceTree = "<group>"; };
+		DB85DB4724914F820049D1A0 /* PDMQuakeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDMQuakeTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				BDFC8F9C23FDA0A100A39B21 /* Quakes_ObjcTests.m */,
+				DB85DB4724914F820049D1A0 /* PDMQuakeTest.m */,
 				BDFC8F9E23FDA0A100A39B21 /* Info.plist */,
 			);
 			path = "Quakes-ObjcTests";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB85DB46249144DD0049D1A0 /* PDMQuake.m in Sources */,
+				DB85DB4824914F820049D1A0 /* PDMQuakeTest.m in Sources */,
 				BDFC8FB423FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
 				BDFC8FB623FDA12B00A39B21 /* LSILog.m in Sources */,
 				BDFC8F9D23FDA0A100A39B21 /* Quakes_ObjcTests.m in Sources */,

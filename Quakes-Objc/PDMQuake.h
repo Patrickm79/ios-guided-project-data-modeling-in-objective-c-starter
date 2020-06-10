@@ -12,11 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PDMQuake : NSObject
 
-@property double magnitude;
-@property NSString *place;
-@property NSDate *time;
-@property double latitude;
-@property double longitude;
+// More property attributes
+// assign(default), copy
+
+@property (nonatomic) double magnitude;
+@property (nonatomic, copy) NSString *place;
+@property (nonatomic) NSDate *time;
+@property (nonatomic) double latitude;
+@property (nonatomic) double longitude;
 
 
 // We can't use the JSONEncoder / JSONDecoder in Objc or in a mix of Swift/Objc
@@ -24,7 +27,11 @@ NS_ASSUME_NONNULL_BEGIN
 // Use NSJSONSerialization for Objc or mix language models
 
 // When writing in any language that has 2 files per class, always write your comments in your header file
-- (instancetype)initWithMagnitude:(double)magnitude place:(NSString *)place time:(NSDate *)time latitude:(double)latitude longitude:(double)longitude;
+- (instancetype)initWithMagnitude:(double)magnitude
+                            place:(NSString *)place
+                             time:(NSDate *)time
+                         latitude:(double)latitude
+                        longitude:(double)longitude;
 
 // Use this method with NSJSONSerizliatation
 /// Sets up object with dictionary from JSON
