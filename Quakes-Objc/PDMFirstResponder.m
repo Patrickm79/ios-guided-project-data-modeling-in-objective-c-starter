@@ -10,13 +10,20 @@
 
 @interface PDMFirstResponder () {
     // Declare instance variables (not properties)
-    NSString *_firstName;
+//    NSString *_firstName;
 }
-
 @end
 
 
 @implementation PDMFirstResponder
+
+// Placment 1: Synthesize statments
+
+// override the default Getter
+
+// Placment 2: Synthesize statments
+// this is asking the compiler to generate an instance variable using the format _propertyName
+@synthesize firstName = _firstName;
 
 - (NSString *)firstName {
     return _firstName;

@@ -26,6 +26,8 @@
 		BDFC8FB723FDA12B00A39B21 /* LSIErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8FB223FDA12B00A39B21 /* LSIErrors.m */; };
 		BDFC8FB823FDA12B00A39B21 /* LSIErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8FB223FDA12B00A39B21 /* LSIErrors.m */; };
 		DB85DB3F24913EB80049D1A0 /* PDMFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85DB3E24913EB80049D1A0 /* PDMFirstResponder.m */; };
+		DB85DB45249144DD0049D1A0 /* PDMQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85DB44249144DD0049D1A0 /* PDMQuake.m */; };
+		DB85DB46249144DD0049D1A0 /* PDMQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85DB44249144DD0049D1A0 /* PDMQuake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		BDFC8FB223FDA12B00A39B21 /* LSIErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIErrors.m; sourceTree = "<group>"; };
 		DB85DB3D24913EB80049D1A0 /* PDMFirstResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDMFirstResponder.h; sourceTree = "<group>"; };
 		DB85DB3E24913EB80049D1A0 /* PDMFirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDMFirstResponder.m; sourceTree = "<group>"; };
+		DB85DB43249144DD0049D1A0 /* PDMQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDMQuake.h; sourceTree = "<group>"; };
+		DB85DB44249144DD0049D1A0 /* PDMQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDMQuake.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			children = (
 				DB85DB3D24913EB80049D1A0 /* PDMFirstResponder.h */,
 				DB85DB3E24913EB80049D1A0 /* PDMFirstResponder.m */,
+				DB85DB43249144DD0049D1A0 /* PDMQuake.h */,
+				DB85DB44249144DD0049D1A0 /* PDMQuake.m */,
 				DB85DB3C24913B800049D1A0 /* Resources */,
 				BDFC8F8623FDA09F00A39B21 /* ViewController.h */,
 				BDFC8F8723FDA09F00A39B21 /* ViewController.m */,
@@ -273,6 +279,7 @@
 				BDFC8F8823FDA09F00A39B21 /* ViewController.m in Sources */,
 				BDFC8FB723FDA12B00A39B21 /* LSIErrors.m in Sources */,
 				BDFC8F8223FDA09F00A39B21 /* AppDelegate.m in Sources */,
+				DB85DB45249144DD0049D1A0 /* PDMQuake.m in Sources */,
 				BDFC8F9323FDA0A100A39B21 /* main.m in Sources */,
 				BDFC8F8523FDA09F00A39B21 /* SceneDelegate.m in Sources */,
 			);
@@ -282,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB85DB46249144DD0049D1A0 /* PDMQuake.m in Sources */,
 				BDFC8FB423FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
 				BDFC8FB623FDA12B00A39B21 /* LSILog.m in Sources */,
 				BDFC8F9D23FDA0A100A39B21 /* Quakes_ObjcTests.m in Sources */,
